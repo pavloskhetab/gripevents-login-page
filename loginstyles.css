@@ -1,0 +1,128 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #E5E4E2;
+}
+
+/* To centre the content horizontally and vertically */
+.centred {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centred container*/
+.centred img {
+  width: 360px;
+  height: 360px;
+}
+
+/* Style the smaller image inside the centred container */
+.small img{
+  width: 200px;
+  height: 200px;
+}
+
+/* Style the text below headings */
+.subtext {
+  font-size: 13px;
+}
+
+/* Style the border for login text, which is currently not being used */
+.loginborder {
+  color: white;
+  border: 3px;
+  border-radius: 8px;
+  background-color:rgb(58, 57, 57);
+  padding: 1em;
+}
+
+/* Style the border for password text */
+.passwordborder {
+  color: red;
+  border: 3px;
+  border-radius: 8px;
+  background-color:#E5E4E2;
+  padding: 1em;
+}
+/* Style the text for password href link */
+.passwordlink {
+    color:red;
+}
+
+/* Style the text for enter email and badge id*/
+.logininput {
+    color: rgb(75, 74, 74);
+    text-align: justify;
+    font-weight: 550;
+    font-size: small;
+}
+
+/* Style the text for welcome info*/
+.welcome {
+  color: rgb(75, 74, 74);
+  font-weight: 800;
+  font-size: large;
+}
+
+/* Style a chevron facing right*/
+.chevron {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+      
+.rotate {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.container {
+  padding: 16px;
+}
+
+/* Style the user input boxes for email and badge id*/
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Styles the login button*/
+button {
+  background-color: rgb(58, 57, 57);
+  color: white;
+  padding: 1em;
+  margin: 8px 0;
+  border: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Styles the opacity of the button colour when you hover over it*/
+button:hover {
+  opacity: 0.8;
+}
