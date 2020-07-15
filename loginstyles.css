@@ -13,12 +13,14 @@
 .left {
   left: 0;
   background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #E5E4E2;
+  background-color: #eeeeede5;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* To centre the content horizontally and vertically */
@@ -42,9 +44,11 @@
   height: 150px;
 }
 
-/* Style the text below headings */
-.subtext {
-  font-size: 13px;
+/* Style the text for welcome info*/
+.welcome {
+  color: rgb(75, 74, 74);
+  font-weight: 800;
+  font-size: 100%;
 }
 
 /* Style the border for login text, which is currently not being used */
@@ -61,9 +65,11 @@
   color: red;
   border: 3px;
   border-radius: 8px;
-  background-color:#E5E4E2;
+  background-color:#eeeeede5;
   padding: 1em;
+  font-size: 80%;
 }
+
 /* Style the text for password href link */
 .passwordlink {
     color:red;
@@ -75,13 +81,6 @@
     text-align: justify;
     font-weight: 550;
     font-size: small;
-}
-
-/* Style the text for welcome info*/
-.welcome {
-  color: rgb(75, 74, 74);
-  font-weight: 800;
-  font-size: large;
 }
 
 /* Style a chevron facing right*/
@@ -125,4 +124,14 @@ button {
 /* Styles the opacity of the button colour when you hover over it*/
 button:hover {
   opacity: 0.8;
+}
+
+/* Style the heading text in right side */
+.htext {
+  font-size: 16px;
+}
+
+/* Style the text below heading in right side */
+.subtext {
+  font-size: 10px;
 }
